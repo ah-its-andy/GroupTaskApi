@@ -6,6 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="1899676_gt.standardcore.io.pfx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="1899676_gt.standardcore.io.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="JWT" Version="5.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
